@@ -190,3 +190,20 @@ button.item:disabled{opacity:.6;cursor:default}
 .mod-row:last-child{border-bottom:0}
 .ev.rent{background:#faf8fe;border-color:#e3daf6}
 .pill.purple{background:#f1ecfb;color:#5b3f99}
+/* ساعت کاری هر روز هفته */
+.week-hours{display:flex;flex-direction:column;gap:6px}
+.wh-row{display:grid;grid-template-columns:72px auto 1fr auto 1fr;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:6px 10px}
+.wh-row.off{background:#f6f7f9}
+.wh-row .wh-day{font-weight:700;font-size:13.5px}
+.wh-row select{min-width:0;padding:6px 8px}
+.wh-row.off .muted{grid-column:3 / span 3}
+/* بسته‌های تعرفهٔ مربی */
+.pack-row{display:grid;grid-template-columns:70px auto 1fr auto;align-items:center;gap:8px;margin-bottom:8px}
+.pack-row input{min-width:0}
+.linkbtn{background:none;border:0;padding:0;color:var(--navy,#101c33);font:inherit;font-weight:700;text-decoration:underline;cursor:pointer}
+/* حضور و غیاب سه‌حالته */
+.att3{border:1px solid var(--line);border-radius:14px;padding:10px 12px;background:#fff}
+.att3.s-p{border-color:#bfe6cc;background:#f3fbf6}
+.att3.s-a{border-color:#f3c4c4;background:#fdf5f5}
+.att3.s-e{border-color:#c9d8f5;background:#f4f7fd}
+.att3 .seg{margin:0}
