@@ -224,6 +224,40 @@ button.item:disabled{opacity:.6;cursor:default}
 .pend-banner b{color:#7a5200}
 .nav-in button{position:relative}
 .nav-badge{position:absolute;top:4px;left:calc(50% - 22px);background:var(--bad);color:#fff;font-style:normal;font-size:10.5px;font-weight:800;min-width:18px;height:18px;line-height:18px;border-radius:9px;padding:0 4px;text-align:center}
+.jdate{display:grid;grid-template-columns:1fr 1.6fr 1.25fr;gap:6px}
+.jdate select{padding-left:22px!important;background-position:10px 21px,5px 21px!important}
+.more-fields{padding:0;overflow:visible}
+.more-fields .more-body{padding:0 14px 6px}
+.file-pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.file-pills .pill{display:inline-flex;align-items:center;gap:4px}
+.file-pills button.pill{border:0;cursor:pointer;font:inherit}
+.file-tabs{position:sticky;top:-14px;z-index:2;background:var(--bg);padding:4px 0 10px;margin-bottom:2px}
+.pill.gold{background:var(--gold-bg);color:#7a5a00}
+.med-card{border-color:#f3c2c2;background:var(--bad-bg)}
+.top-r{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.top-search{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.1);color:#fff}
+.top-search svg{stroke:#fff}
+.srch-h{font-size:13px;font-weight:800;color:var(--mut);margin:4px 2px 6px}
+.bday-note{position:fixed;top:calc(var(--safe-t) + 8px);left:50%;transform:translateX(-50%);width:calc(100% - 24px);max-width:520px;z-index:45;background:#fff;border:1px solid #f0dca0;border-radius:14px;box-shadow:0 10px 26px rgba(16,28,51,.22);padding:10px 12px;animation:dropin .35s ease}
+.bday-ic{width:36px;height:36px;border-radius:50%;background:var(--gold-bg);color:#a07800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.bday-ic svg{stroke:#a07800}
+.bday-txt{display:flex;flex-direction:column;gap:2px;text-align:right;min-width:0}
+.bday-txt b{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bday-txt span{font-size:12px;color:var(--mut)}
+.bday-x{font-size:22px;line-height:1;color:var(--mut);padding:2px 6px}
+.bday-list{margin-top:8px;border-top:1px solid var(--line);padding-top:4px;max-height:40vh;overflow:auto}
+@keyframes dropin{from{transform:translate(-50%,-24px);opacity:0}to{transform:translate(-50%,0);opacity:1}}
+.splash{flex-direction:column}
+.splash-in{display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;max-width:380px;text-align:center;color:#fff;padding:0 8px}
+.splash-logo{width:76px;height:76px;border-radius:22px;box-shadow:0 12px 30px rgba(0,0,0,.35)}
+.splash-brand{font-size:24px;font-weight:800;color:var(--gold-l);letter-spacing:.5px}
+.splash-dots{display:flex;gap:6px;margin:2px 0 6px}
+.splash-dots i{width:7px;height:7px;border-radius:50%;background:var(--gold-l);opacity:.35;animation:sdot 1.2s infinite ease-in-out}
+.splash-dots i:nth-child(2){animation-delay:.2s}.splash-dots i:nth-child(3){animation-delay:.4s}
+@keyframes sdot{0%,80%,100%{opacity:.25;transform:scale(.85)}40%{opacity:1;transform:scale(1)}}
+.splash-note{font-size:12px;color:#aeb8cc}
+.login-brand{text-align:center;font-size:20px;font-weight:800;color:var(--navy);margin:6px 0 2px}
+.linkname{font-weight:800;font-size:inherit;color:inherit;text-align:right;text-decoration:underline;text-decoration-color:rgba(16,28,51,.25);text-underline-offset:4px;padding:0}
 
 /* سایت معرفی — همهٔ کلاس‌ها با پیشوند lp- تا با پنل تداخل نداشته باشد */
 .lp{--n:#101c33;--n2:#1a2b4d;--g:#c9a227;--gl:#e3c565;--gbg:#fff7df;--bg:#f4f6f9;--ink:#1c2333;--mut:#5b6475;--line:#e3e7ee;--ok:#168a46;--wa:#1faa54;
